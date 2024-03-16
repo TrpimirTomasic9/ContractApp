@@ -1,8 +1,9 @@
-/* import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import AddClient from './components/AddClient';
-import AddContract from './components/AddContract';
+import AddClient from './components/addClient/AddClient';
+import AddContract from './components/addContract/AddContract';
+import ContractList from './components/contracts/ContractList';
 
 function App() {
   return (
@@ -10,29 +11,14 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Navbar />
-          <Switch>
-            <Route path="/add-client" component={AddClient} />
-            <Route path="/add-contract" component={AddContract} />
-          </Switch>
+          <Routes>
+            <Route path="/" exact element={<ContractList />} />
+            <Route path="/add-client" element={<AddClient />} />
+            <Route path="/add-contract" element={<AddContract />} />
+          </Routes>
         </header>
       </div>
     </Router>
-  );
-}
-
-export default App;
- */
-
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
-    </div>
   );
 }
 

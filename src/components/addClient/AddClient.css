@@ -1,0 +1,70 @@
+.titleClient {
+  margin-top: 0.2rem;
+}
+
+.add-client-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 35vh;
+}
+
+.input-group-client {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-group-client label {
+  width: 100px;
+}
+
+.add-client-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-client-container button {
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.add-client-container button:hover {
+  box-shadow: 0 0 5px 5px rgba(74, 196, 226, 0.5);
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  height: 15vh;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

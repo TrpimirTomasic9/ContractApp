@@ -1,0 +1,83 @@
+.titleContract {
+  margin-top: 0.2rem;
+}
+
+.contract-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 33vh;
+}
+
+.input-group-contract {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-group-contract label {
+  width: 9rem;
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.input-group-contract input,
+.input-group-contract select,
+.input-group-contract textarea {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.input-group-contract textarea {
+  resize: vertical;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contract-container button {
+  margin-top: 10px;
+}
+
+.contract-container button:hover {
+  box-shadow: 0 0 5px 5px rgba(74, 196, 226, 0.5);
+  cursor: pointer;
+}
+
+.contract-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contract-modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  margin-top: 75px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  font-size: 25px;
+  height: 29vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
