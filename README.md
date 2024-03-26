@@ -1,5 +1,8 @@
 # React App with JSON Server
 
+![Starting Page](starting_page.png)
+
+
 This project demonstrates a simple React application integrated with a JSON server to manage clients and contracts.
 
 ## Getting Started
